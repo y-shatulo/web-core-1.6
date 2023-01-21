@@ -1,0 +1,48 @@
+.service-prices__title {
+  @include block-title;
+}
+
+.service-prices {
+  border-top: 1px solid $titleBorder;
+  padding-left: 32px;
+  background-color: $mainBackground;
+}
+
+.price__list {
+  display: grid;
+  max-width: 1056px;
+  padding-top: 8px;
+  margin-bottom: 30px;
+}
+
+.string-wrapper {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 520px 190px 190px 120px;
+  height: 64px;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-bottom: 1px solid $cardBorder;
+}
+
+.price__list:first-child {
+  border-bottom: none;
+}
+.price__list:last-child {
+  border-bottom: none;
+}
+
+.string-title {
+  background-color: $mainBackground;
+}
+
+.button-to-order {
+  width: 119px;
+  height: 32px;
+}
+
+.string-content {
+  background-color: $white;
+  border-radius: 10px;
+}
