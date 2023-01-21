@@ -1,0 +1,142 @@
+.repair-brands__title {
+  @include block-title;
+}
+
+.repair-brands {
+  background-color: $mainBackground;
+  padding-left: 32px;
+  border-top: 1px solid $titleBorder;
+}
+
+.brand-catalog {
+  padding-top: 24px;
+}
+
+.brand-catalog__list {
+  display: flex;
+
+}
+
+.brand-catalog__list--hidden {
+  max-height: 175px;
+}
+
+.brand-card {
+  display: flex;
+  box-sizing: border-box;
+  width: 240px;
+  height: 72px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+
+.brand-card__logo {
+  max-width: 140px;
+  padding-left: 16px;
+}
+
+.brand-card__logo--hp {
+  padding-left: 10px;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.button-go {
+  margin-right: 16px;
+}
+
+.button-go:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.show-all {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: #F8F8F8;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.show-all__button {
+  color: #1B1C21;
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  font-weight: 600;
+  width: max-content;
+  padding-left: 12px;
+}
+
+.show-all__icon {
+  margin-right: 5px;
+  margin-left: 6px;
+}
+
+
+/*----------MEDIA----------*/
+
+@media (max-width: 767px) {
+  .show-all {
+      display: none;
+  }
+
+  .repair-brands__title {
+      padding: 16px 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1019px) {
+  .brand-catalog__list {
+      flex-wrap: wrap;
+      overflow: hidden;
+      height: 100%;
+  }
+
+  .brand-card {
+      min-width: 224px;
+      margin-right: 24px;
+      margin-bottom: 16px;
+  }
+
+  .repair-brands__title {
+      padding: 16px 24px;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1119px) {
+  .brand-catalog__list {
+      flex-wrap: wrap;
+      overflow: hidden;
+      height: 100%;
+
+  }
+
+  .brand-card {
+      margin-right: 32px;
+      margin-bottom: 16px;
+  }
+}
+
+
+@media (min-width: 1120px) {
+  .brand-catalog__list {
+      flex-wrap: wrap;
+      overflow: hidden;
+      height: 100%;
+  }
+
+  .brand-card {
+      margin-right: 32px;
+      margin-bottom: 16px;
+  }
+}

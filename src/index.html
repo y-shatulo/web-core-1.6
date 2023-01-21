@@ -9,56 +9,56 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Макет 1.6 Юлия Шатуло</title>
   </head>
-  <body class="page">
-    <div class="burger-menu burger-menu--hidden">
-      <header class="header-burger">
-        <div class="header-burger">
-          <button class="button button-close" type="button">
-            <img
-              class="button-close__img"
-              src="./img/close.svg"
-              alt="Закрыть"
-            />
-          </button>
-          <img
-            class="header__logo--burger"
-            src="./img/logo.svg"
-            alt="Логотип"
-          />
+  <body class="main-page">
+    <div class="container-burger">
+      <div class="container-header-nav">
+        <header class="header-burger">
+          <div class="container-burger__header">
+            <button class="button button-close" type="button">
+              <img
+                class="button-close__img"
+                src="../src/img/close.svg"
+                alt="Закрыть"
+              />
+            </button>
+            <img class="logo" src="../src/img/logo.svg" alt="Логотип" />
+          </div>
           <button class="button button-search" type="button">
-            <img class="search__img" src="./img/search.svg" alt="Поиск" />
+            <img class="search__img" src="../src/img/search.svg" alt="Поиск" />
           </button>
+        </header>
+        <div class="nav-buger">
+          <ul class="nav-buger nav-list">
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Ремонт техники</a></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Услуги и сервисы</a></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#"
+                >Корпоративным клиентам</a
+              ></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Продавцам техники</a></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Партнерам</a></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Производителям</a></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Наши сервисные центры</a></li
+            >
+            <li class="nav-list__item"
+              ><a class="link link--item" href="#">Контакты</a></li
+            >
+          </ul>
         </div>
-      </header>
-      <div class="nav-buger">
-        <ul class="nav-buger nav-list">
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Ремонт техники</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Услуги и сервисы</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Корпоративным клиентам</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Продавцам техники</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Партнерам</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Производителям</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Наши сервисные центры</a></li
-          >
-          <li class="nav-list__item"
-            ><a class="link link--item" href="#">Контакты</a></li
-          >
-        </ul>
       </div>
-      <footer class="footer">
+      <footer class="footer-burger">
         <div class="buttons-footer">
           <button class="button button-call" type="button">
             <img
@@ -99,8 +99,7 @@
         </div>
       </footer>
     </div>
-
-    <div class="container-page">
+    <div class="container-content">
       <header class="header">
         <div class="header header__menu-logo">
           <button class="button burger-menu">
@@ -178,24 +177,24 @@
           </nav>
           <div class="text-image">
             <div class="text-image__text">
-              <p class="text text__brands"
-                >Мы являемся авторизованным сервисным центром по ремонту техники
+              <p class="text text__brands">
+                Мы являемся авторизованным сервисным центром по ремонту техники
                 Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-                официальной гарантией производителя.</p
-              >
-              <p class="text text-tablet text__brands"
-                >Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                партнера</p
-              >
-              <p class="text text-pc text__brands"
-                >Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                официальной гарантией производителя.
+              </p>
+              <p class="text text-tablet text__brands">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера
+              </p>
+              <p class="text text-pc text__brands">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
                 партнера, что подтверждает большое количество постоянных
                 клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
-                и, в свою очередь, советуют нас родным и близким.</p
-              >
-              <div class="read-more">
-                <img class="read-more__icon" src="./img/icon-read-more.svg" />
-                <button class="button read-more__button"> Читать далее </button>
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+              <div class="show-all">
+                <img class="show-all__icon" src="./img/icon-read-more.svg" />
+                <button class="show-all__button button"> Читать далее </button>
               </div>
             </div>
             <div class="text-image__image">
@@ -374,8 +373,113 @@
         </div>
         <div class="show-all">
           <img class="show-all__icon" src="./img/icon-read-more.svg" />
+          <button class="show-all__button button show-all__button--brands">
+            Показать все
+          </button>
+        </div>
+      </article>
+      <article class="repair-type">
+        <h2 class="repair-type__title">Ремонт различных видов техники</h2>
+        <div class="swiper type-catalog" data-mobile="false">
+          <div
+            class="type-catalog__list type-catalog__list--hidden swiper-wrapper"
+          >
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт ноутбуков</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт планшетов</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт ПК</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт мониторов</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт клавиатур</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт наушников</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт колонок</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+            <div class="type-card swiper-slide">
+              <span class="type-text">Ремонт процессоров</span>
+              <button class="type-card__button button-go button">
+                <img
+                  class="button-go__icon"
+                  src="./img/button-go.svg"
+                  alt="Перейти"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="show-all">
+          <img class="show-all__icon" src="./img/icon-read-more.svg" />
           <button class="show-all__button button"> Показать все </button>
         </div>
+      </article>
+      <article class="service-prices">
+        <h2 class="service-prices__title">Ремонт различных видов техники</h2>
+        <div class="swiper prices" data-mobile="false">
+          <div class="price__list type-catalog__list--hidden swiper-wrapper">
+            
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
       </article>
     </div>
   </body>

@@ -1,0 +1,47 @@
+.repair-type {
+  padding-left: 32px;
+  background-color: $mainBackground;
+  border-top: 1px solid $titleBorder;
+}
+
+.repair-type__title {
+  @include block-title;
+}
+
+.type-catalog {
+  max-width: 1120;;
+  padding-top: 24px;
+  &__list {
+    display: flex;
+
+}
+    &__list--hidden {
+      max-height: 175px;
+    }
+}
+  
+.type-card {
+  display: flex;
+  box-sizing: border-box;
+  width: 240px;
+  height: 160px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 32px;
+  margin-bottom: 16px;
+}
+
+.type-text {
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.type-card__button {
+  align-self: flex-end;
+  margin-bottom: 16px;
+}

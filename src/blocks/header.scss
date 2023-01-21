@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  align-items: center;
+}
+
+.header__menu-logo {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 8px;
+}
+
+.header__interaction {
+  padding-right: 8px;
+}
+
+.header__menu-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__divider {
+  padding: 0 12px;
+}
+
+.header__logo {
+  padding: 0 8px;
+}
+
+.button-title-desktop {
+  display: flex;
+  margin-left: auto;
+  padding-right: 24px;
+  gap: 32px;
+}
+
+.button-title-desktop__label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #1b1c21;
+  font-weight: 600;
+  gap: 8px;
+}

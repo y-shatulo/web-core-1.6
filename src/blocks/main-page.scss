@@ -1,0 +1,16 @@
+.main-page {
+  box-sizing: border-box;
+  background-color: $white;
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'TT Lakes';
+    @media (min-width: 1336px) {
+      display: grid;
+      grid-template-columns: 306px 1120px;
+    }
+}
+
+.main {
+	background-color: $mainBackground;
+}
