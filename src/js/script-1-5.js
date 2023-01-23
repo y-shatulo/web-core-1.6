@@ -1,4 +1,5 @@
-
+export let slider = document.querySelector('.swiper')
+export let mySwiper
 export function mobileSlider() {
   if (window.innerWidth <= 767 && slider.dataset.mobile === 'false') {
     mySwiper = new Swiper(slider, {

@@ -8,24 +8,19 @@
 .header__menu-logo {
   display: flex;
   justify-content: flex-start;
-  padding-left: 8px;
+  gap: 20px;
+  padding-left: 24px;
 }
 
 .header__interaction {
-  padding-right: 8px;
+  display: flex;
+  gap: 16px;
+  padding-right: 24px;
 }
 
 .header__menu-img {
   display: flex;
   justify-content: flex-end;
-}
-
-.header__divider {
-  padding: 0 12px;
-}
-
-.header__logo {
-  padding: 0 8px;
 }
 
 .button-title-desktop {

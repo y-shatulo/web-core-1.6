@@ -10,7 +10,7 @@
     <title>Макет 1.6 Юлия Шатуло</title>
   </head>
   <body class="main-page">
-    <div class="container-burger">
+    <div class="container-burger container-burger--hidden">
       <div class="container-header-nav">
         <header class="header-burger">
           <div class="container-burger__header">
@@ -182,7 +182,7 @@
                 Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
                 официальной гарантией производителя.
               </p>
-              <p class="text text-tablet text__brands">
+              <p class="text text-tablet text__brands ">
                 Мы успешно работаем с 1992 года и заслужили репутацию надежного
                 партнера
               </p>
@@ -192,9 +192,16 @@
                 клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
                 и, в свою очередь, советуют нас родным и близким.
               </p>
+              <p class="text-show text text__brands text--hidden">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
+              
               <div class="show-all">
-                <img class="show-all__icon" src="./img/icon-read-more.svg" />
-                <button class="show-all__button button"> Читать далее </button>
+                <img class="show-all__icon show-all__icon--text" src="./img/icon-read-more.svg" />
+                <button class="show-all__button show-all__button--text button"> Читать далее </button>
               </div>
             </div>
             <div class="text-image__image">
@@ -372,7 +379,7 @@
           <div class="swiper-pagination"></div>
         </div>
         <div class="show-all">
-          <img class="show-all__icon" src="./img/icon-read-more.svg" />
+          <img class="show-all__icon show-all__icon--brands" src="./img/icon-read-more.svg" />
           <button class="show-all__button button show-all__button--brands">
             Показать все
           </button>
@@ -468,12 +475,12 @@
         </div>
         <div class="swiper-pagination"></div>
         <div class="show-all">
-          <img class="show-all__icon" src="./img/icon-read-more.svg" />
-          <button class="show-all__button button"> Показать все </button>
+          <img class="show-all__icon show-all__icon--type" src="./img/icon-read-more.svg" />
+          <button class="show-all__button show-all__button--type button"> Показать все </button>
         </div>
       </article>
       <article class="service-prices">
-        <h2 class="service-prices__title">Ремонт различных видов техники</h2>
+        <h2 class="service-prices__title">Цены на услуги</h2>
         <div class="swiper-prices swiper" data-mobile="false">
           <div class="price__list swiper-wrapper">
             <div class="string-wrapper string-title">
@@ -486,7 +493,7 @@
                 <div class="string-wrapper__column">Диагностика</div>
                 <div class="string-wrapper__column">Бесплатно</div>
                 <div class="string-wrapper__column">30 мин</div>
-                <div class="string-wrapper__column">
+                <div class="string-wrapper__column string-wrapper__column--button">
                   <img
                     class="button button-to-order"
                     src="../src/img/button-to-order.svg"
@@ -498,7 +505,7 @@
                 <div class="string-wrapper__column">Замена дисплея</div>
                 <div class="string-wrapper__column">1 000 ₽</div>
                 <div class="string-wrapper__column">30-120 мин</div>
-                <div class="string-wrapper__column"
+                <div class="string-wrapper__column string-wrapper__column--button"
                   ><img
                     class="button button-to-order"
                     src="../src/img/button-to-order.svg"
@@ -511,7 +518,7 @@
                 >
                 <div class="string-wrapper__column">1 000 ₽</div>
                 <div class="string-wrapper__column">30-120 мин</div>
-                <div class="string-wrapper__column"
+                <div class="string-wrapper__column string-wrapper__column--button"
                   ><img
                     class="button button-to-order"
                     src="../src/img/button-to-order.svg"
@@ -524,7 +531,7 @@
                 >
                 <div class="string-wrapper__column">1 000 ₽</div>
                 <div class="string-wrapper__column">30-120 мин</div>
-                <div class="string-wrapper__column"
+                <div class="string-wrapper__column string-wrapper__column--button"
                   ><img
                     class="button button-to-order"
                     src="../src/img/button-to-order.svg"
@@ -537,7 +544,7 @@
                 >
                 <div class="string-wrapper__column">1 000 ₽</div>
                 <div class="string-wrapper__column">30-120 мин</div>
-                <div class="string-wrapper__column"
+                <div class="string-wrapper__column string-wrapper__column--button"
                   ><img
                     class="button button-to-order"
                     src="../src/img/button-to-order.svg"
@@ -548,7 +555,21 @@
           </div>
         </div>
         <div class="swiper-pagination"></div>
+        <section class="prices-info">
+          <p class="prices-info__text">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. 
+            Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+          <div class="info--wrapper"></div>
+            <a class="prices-info__link link" rel="stylesheet" href="#">Получить коммерческое предложение</a>
+            <img class="prices-info__img" src="../src/img/line.svg" alt="">
+        </section>
       </article>
+      <footer class="footer">
+        <div class="footer-info">© 2019 CPS
+          <br>
+          Разработано командой Apesong </div>
+        <div class="footer-info">Политика конфиденциальности</div>
+        <div class="footer-info">Информация, размещенная на данной странице, не является публичной офертой</div>
+      </footer>
     </div>
   </body>
 </html>

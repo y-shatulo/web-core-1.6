@@ -2,6 +2,9 @@
   padding-left: 32px;
   background-color: $mainBackground;
   border-top: 1px solid $titleBorder;
+    @media (min-width: 768px) and (max-width: 1335px){
+      padding-left: 24px;
+  }
 }
 
 .repair-type__title {
@@ -10,15 +13,20 @@
 
 .type-catalog {
   max-width: 1120;;
-  padding-top: 24px;
-  &__list {
-    display: flex;
+  padding-top: 24px; 
+}
 
+.type-catalog__list {
+  display: flex;
+  @media (min-width: 768px) {
+    flex-wrap: wrap;
+  }
 }
-    &__list--hidden {
-      max-height: 175px;
-    }
+
+.type-catalog__list--hidden {
+  max-height: 175px;
 }
+
   
 .type-card {
   display: flex;
@@ -32,6 +40,10 @@
   align-items: center;
   margin-right: 32px;
   margin-bottom: 16px;
+    @media (min-width: 768px) and (max-width: 1335px){
+      margin-right: 24px;
+      width: 224px;
+}
 }
 
 .type-text {

@@ -82,6 +82,10 @@
   margin-left: 6px;
 }
 
+.show-all__icon--rotate {
+  transform: rotate(180deg);
+  transition: all 0.2s;
+}
 
 /*----------MEDIA----------*/
 
@@ -96,6 +100,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 1019px) {
+  .repair-brands {
+    padding-left: 24px;
+  }
   .brand-catalog__list {
       flex-wrap: wrap;
       overflow: hidden;
@@ -103,14 +110,11 @@
   }
 
   .brand-card {
-      min-width: 224px;
-      margin-right: 24px;
+      width: 224px;
       margin-bottom: 16px;
+      margin-right: 24px;
   }
 
-  .repair-brands__title {
-      padding: 16px 24px;
-  }
 }
 
 @media (min-width: 1020px) and (max-width: 1119px) {

@@ -3,13 +3,18 @@
   background-color: $white;
   max-width: 1440px;
   position: relative;
+  z-index: 1;
   margin: 0 auto;
   font-family: 'TT Lakes';
     @media (min-width: 1336px) {
       display: grid;
       grid-template-columns: 306px 1120px;
+      box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 
+      1px 0px 16px rgba(14, 24, 80, 0.2);
     }
 }
+
+
 
 .main {
 	background-color: $mainBackground;

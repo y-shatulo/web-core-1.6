@@ -1,40 +1,49 @@
-.service-prices__title {
-  @include block-title;
-}
-
 .service-prices {
   border-top: 1px solid $titleBorder;
   padding-left: 32px;
   background-color: $mainBackground;
+  @media (min-width: 768px) and (max-width: 1199px){
+    padding-left: 24px
+  }
+}
+
+.service-prices__title {
+  @include block-title;
 }
 
 .price__list {
   display: grid;
-  max-width: 1056px;
   padding-top: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .string-wrapper {
-  box-sizing: border-box;
   display: grid;
-  grid-template-columns: 520px 190px 190px 120px;
+  grid-template-columns: 50.7% 16.4% 16.4% 14.3%;
+  column-gap: 5px;
   height: 64px;
   align-items: center;
   margin-left: 24px;
   margin-right: 24px;
-  border-bottom: 1px solid $cardBorder;
+  border-bottom: 2px solid $cardBorder;
+  font-size: 14px;
+}
+.string-wrapper:last-of-type {
+  border-bottom: none;
 }
 
-.price__list:first-child {
-  border-bottom: none;
-}
-.price__list:last-child {
-  border-bottom: none;
+.string-wrapper__column--button {
+  justify-self: end;
 }
 
 .string-title {
   background-color: $mainBackground;
+  border-bottom: none;
+  color: $textGray;
+  padding-right: 32px;
+  @media (min-width: 768px) and (max-width: 1440px){
+    padding-right: 24px;
+  }
 }
 
 .button-to-order {
@@ -45,4 +54,29 @@
 .string-content {
   background-color: $white;
   border-radius: 10px;
+  margin-right: 32px;
+  @media (min-width: 768px) and (max-width: 1440px){
+    margin-right: 24px;
+  }
+}
+
+.prices-info__text {
+  max-width: 425px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.prices-info__link {
+  display: inline-block;
+  font-size: 16px;
+  padding-top: 16px;
+  padding-bottom: 50px;
+}
+
+.prices-info__link:hover {
+  color: $textGray;
+}
+
+.prices-info__img {
+  padding-left: 10px;
 }
