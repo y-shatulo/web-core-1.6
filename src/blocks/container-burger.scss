@@ -1,24 +1,31 @@
 .container-burger {  
   min-height: 100vh;
   max-height: 1024px;
+  min-width: 306px;
   max-width: 360px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  @media (min-width: 1335) {
-
-}
 }
   
 .container-burger--hidden {
     display: none;
+    @media (min-width: 1336px) {
+      display: block;
+      transition: all 0.2s;
+    }
+
 }  
 
 .container-burger--absolute {
   position: absolute;
   top: 0;
   z-index: 5;
-  max-width: 360px;
+  background-color: white;
+  box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
+  @media (max-width: 360px) {
+    width: 100%;
+  }
 }
 
 .container-header-nav {

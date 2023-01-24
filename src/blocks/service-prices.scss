@@ -2,6 +2,9 @@
   border-top: 1px solid $titleBorder;
   padding-left: 32px;
   background-color: $mainBackground;
+  @media (max-width: 767px) {
+    padding-left: 16px;
+  }
   @media (min-width: 768px) and (max-width: 1199px){
     padding-left: 24px
   }
@@ -64,6 +67,10 @@
   max-width: 425px;
   font-size: 14px;
   margin: 0;
+  @media (max-width: 767px) {
+    padding-right: 17px;
+    line-height: 20px;
+  }
 }
 
 .prices-info__link {
@@ -71,6 +78,10 @@
   font-size: 16px;
   padding-top: 16px;
   padding-bottom: 50px;
+  @media (max-width: 767px) {
+    padding-bottom: 40px;
+    width: 192px;
+  }
 }
 
 .prices-info__link:hover {
@@ -79,4 +90,8 @@
 
 .prices-info__img {
   padding-left: 10px;
+  @media (max-width: 767px) {
+    position: relative;
+    left: -92px;
+  }
 }

@@ -10,12 +10,18 @@
   justify-content: flex-start;
   gap: 20px;
   padding-left: 24px;
+    @media (max-width: 340px) {
+      padding-left: 16px;
+    }
 }
 
 .header__interaction {
   display: flex;
   gap: 16px;
   padding-right: 24px;
+  @media (max-width: 340px) {
+    padding-right: 16px;
+  }
 }
 
 .header__menu-img {

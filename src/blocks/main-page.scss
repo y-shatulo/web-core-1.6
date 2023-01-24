@@ -8,12 +8,16 @@
   font-family: 'TT Lakes';
     @media (min-width: 1336px) {
       display: grid;
-      grid-template-columns: 306px 1120px;
+      grid-template-columns: 21.25% 78.75%;
       box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 
       1px 0px 16px rgba(14, 24, 80, 0.2);
     }
 }
 
+.main-page--blur {
+  opacity: 0.09;
+  transition: all 0.2s;
+}
 
 
 .main {

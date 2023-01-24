@@ -59,6 +59,14 @@
 .text-image {
   display: flex;
   justify-content: center;
+    &__image {
+      justify-content: center;
+      display: flex;
+    }
+}
+
+.text-image__image {
+  border-radius: 10px;
 }
 
 .text-image__text {
@@ -101,6 +109,7 @@
   }
   .text-image {
     flex-direction: column;
+    padding-bottom:  24px;
   }
   .text__brands {
     margin-bottom: 0;
@@ -110,7 +119,7 @@
   }
 }
 
-@media (min-width: 651px) and (max-width: 991px) {
+@media (min-width: 651px) and (max-width: 1335px) {
   .text-pc {
     display: none;
   }
@@ -152,7 +161,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1336px) {
   .text-tablet {
     display: none;
   }

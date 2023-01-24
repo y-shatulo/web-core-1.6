@@ -90,12 +90,14 @@
 /*----------MEDIA----------*/
 
 @media (max-width: 767px) {
-  .show-all {
+  .show-all__button--brands,
+  .show-all__icon--brands,
+  .show-all__button--type,
+  .show-all__icon--type {
       display: none;
   }
-
-  .repair-brands__title {
-      padding: 16px 16px;
+  .repair-brands {
+    padding-left: 16px;
   }
 }
 

@@ -2,6 +2,9 @@
   padding-left: 32px;
   background-color: $mainBackground;
   border-top: 1px solid $titleBorder;
+    @media (max-width: 767px) {
+      padding-left: 16px;
+    }
     @media (min-width: 768px) and (max-width: 1335px){
       padding-left: 24px;
   }
