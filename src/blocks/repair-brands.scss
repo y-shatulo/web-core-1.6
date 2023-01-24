@@ -33,6 +33,9 @@
   align-items: center;
   margin-right: 32px;
   margin-bottom: 16px;
+  &:hover {
+    border: 2px solid $pink;
+  }
 }
 
 .brand-card__logo {

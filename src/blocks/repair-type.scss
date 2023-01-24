@@ -43,6 +43,9 @@
   align-items: center;
   margin-right: 32px;
   margin-bottom: 16px;
+  &:hover {
+    border: 2px solid $pink;
+  }
     @media (min-width: 768px) and (max-width: 1335px){
       margin-right: 24px;
       width: 224px;
