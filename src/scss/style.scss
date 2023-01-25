@@ -1,5 +1,6 @@
 @import '../../node_modules/normalize.css/normalize.css';
 @import 'swiper-bundle.min.scss';
+@import '../blocks/swiper.scss';
 @import 'fonts.scss';
 @import 'variables.scss';
 @import 'mixins.scss';
@@ -10,7 +11,6 @@
 @import '../blocks/footer-burger.scss';
 @import '../blocks/header.scss';
 @import '../blocks/main.scss';
-@import '../blocks/swiper.scss';
 @import '../blocks/repair-brands.scss';
 @import '../blocks/repair-type.scss';
 @import '../blocks/service-prices.scss';

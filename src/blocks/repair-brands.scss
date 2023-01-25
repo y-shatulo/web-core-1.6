@@ -14,7 +14,6 @@
 
 .brand-catalog__list {
   display: flex;
-
 }
 
 .brand-catalog__list--hidden {
@@ -35,6 +34,9 @@
   margin-bottom: 16px;
   &:hover {
     border: 2px solid $pink;
+  }
+  @media (max-width: 767px) {
+    margin-bottom: 30px;
   }
 }
 

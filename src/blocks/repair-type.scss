@@ -21,6 +21,10 @@
 
 .type-catalog__list {
   display: flex;
+  @media (max-width: 767px) {
+    padding-bottom: 16px;
+  } 
+  padding-bottom: 16px;
   @media (min-width: 768px) {
     flex-wrap: wrap;
   }
@@ -50,6 +54,7 @@
       margin-right: 24px;
       width: 224px;
 }
+
 }
 
 .type-text {
