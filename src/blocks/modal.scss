@@ -3,6 +3,8 @@
   top: 0;
   right: 0;
   z-index: 10;
+  transition: all 0.2s;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2)
 }
 
 .modal--hidden {
@@ -18,9 +20,10 @@
   padding: 32px;
   margin-left: auto;
   background: #ffffff;
-  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
-    16px 0px 52px rgba(14, 24, 80, 0.2);
   position: relative;
+  @media (max-width: 520px) {
+    padding: 24px 16px;
+  }
   @media (max-width: 360px) {
     width: 100%;
   }
@@ -94,4 +97,9 @@
 .button-close--modal {
   position: absolute;
   left: -65px;
+  display: block;
+  @media (max-width: 520px) {
+    position: static;
+    margin-bottom: 40px;
+  }
 }

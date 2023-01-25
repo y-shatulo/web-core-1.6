@@ -1,6 +1,5 @@
 .container-burger {  
-  min-height: 100vh;
-  max-height: 1024px;
+  height: 100vh;
   min-width: 306px;
   max-width: 360px;
   display: flex;
@@ -11,7 +10,7 @@
 .container-burger--hidden {
     display: none;
     @media (min-width: 1336px) {
-      display: block;
+      display: flex;
       transition: all 0.2s;
     }
 
